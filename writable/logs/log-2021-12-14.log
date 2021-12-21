@@ -1,0 +1,338 @@
+CRITICAL - 2021-12-14 01:57:15 --> Undefined property: App\Controllers\ProfileUser::$komikModel
+#0 C:\xampp\htdocs\uas_pweb2\app\Controllers\ProfileUser.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ProfileUser->update()
+#2 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileUser))
+#3 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\uas_pweb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-14 02:03:20 --> There is no data to update.
+#0 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Model.php(646): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\uas_pweb2\app\Controllers\ProfileUser.php(41): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ProfileUser->update()
+#5 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileUser))
+#6 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\uas_pweb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-14 02:07:43 --> Object of class App\Controllers\ProfileUser could not be converted to string
+#0 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ProfileUser->update()
+#1 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileUser))
+#2 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\uas_pweb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-14 02:09:19 --> Object of class App\Controllers\ProfileUser could not be converted to string
+#0 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ProfileUser->update()
+#1 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileUser))
+#2 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\uas_pweb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-14 02:12:08 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ProfileUser->update()
+#1 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileUser))
+#2 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\uas_pweb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-14 02:13:04 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ProfileUser->update()
+#1 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileUser))
+#2 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\uas_pweb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-14 02:17:00 --> Object of class CodeIgniter\Session\Session could not be converted to string
+#0 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Database\Query.php(330): strtr('SELECT *\nFROM `...', Array)
+#1 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Database\Query.php(304): CodeIgniter\Database\Query->matchNamedBinds('SELECT *\nFROM `...', Array)
+#2 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#7 C:\xampp\htdocs\uas_pweb2\app\Models\LoginModel.php(15): CodeIgniter\BaseModel->first()
+#8 C:\xampp\htdocs\uas_pweb2\app\Controllers\ProfileUser.php(36): App\Models\LoginModel->getDataUser(Object(CodeIgniter\Session\Session))
+#9 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ProfileUser->update()
+#10 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileUser))
+#11 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\uas_pweb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2021-12-14 03:52:13 --> Undefined variable $validation
+#0 C:\xampp\htdocs\uas_pweb2\app\Views\pages\edit_profile.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 63)
+#1 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('pages/edit_prof...', Array, true)
+#4 C:\xampp\htdocs\uas_pweb2\app\Controllers\ProfileUser.php(30): view('pages/edit_prof...', Array)
+#5 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ProfileUser->edit_profile()
+#6 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileUser))
+#7 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\uas_pweb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-14 03:53:44 --> Undefined variable $validation
+#0 C:\xampp\htdocs\uas_pweb2\app\Views\pages\edit_profile.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 63)
+#1 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('pages/edit_prof...', Array, true)
+#4 C:\xampp\htdocs\uas_pweb2\app\Controllers\ProfileUser.php(30): view('pages/edit_prof...', Array)
+#5 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ProfileUser->edit_profile()
+#6 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileUser))
+#7 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\uas_pweb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-14 03:55:26 --> Undefined variable $validation
+#0 C:\xampp\htdocs\uas_pweb2\app\Views\pages\edit_profile.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 63)
+#1 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('pages/edit_prof...', Array, true)
+#4 C:\xampp\htdocs\uas_pweb2\app\Controllers\ProfileUser.php(30): view('pages/edit_prof...', Array)
+#5 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ProfileUser->edit_profile()
+#6 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileUser))
+#7 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\uas_pweb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-14 03:57:38 --> Undefined variable $validation
+#0 C:\xampp\htdocs\uas_pweb2\app\Views\pages\edit_profile.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 63)
+#1 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('pages/edit_prof...', Array, true)
+#4 C:\xampp\htdocs\uas_pweb2\app\Controllers\ProfileUser.php(30): view('pages/edit_prof...', Array)
+#5 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ProfileUser->edit_profile()
+#6 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileUser))
+#7 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\uas_pweb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-14 04:01:03 --> Invalid file: pages/edit_profile/#gantifoto.php
+#0 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/edit_prof...')
+#1 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('pages/edit_prof...', Array, true)
+#2 C:\xampp\htdocs\uas_pweb2\app\Controllers\ProfileUser.php(75): view('pages/edit_prof...')
+#3 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ProfileUser->edit_gantifoto()
+#4 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileUser))
+#5 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\uas_pweb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-14 04:05:58 --> Undefined variable $validation
+#0 C:\xampp\htdocs\uas_pweb2\app\Views\pages\edit_profile.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('pages/edit_prof...', Array, true)
+#4 C:\xampp\htdocs\uas_pweb2\app\Controllers\ProfileUser.php(30): view('pages/edit_prof...', Array)
+#5 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ProfileUser->edit_profile()
+#6 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileUser))
+#7 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\uas_pweb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-14 04:06:15 --> Undefined variable $validation
+#0 C:\xampp\htdocs\uas_pweb2\app\Views\pages\edit_profile.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('pages/edit_prof...', Array, true)
+#4 C:\xampp\htdocs\uas_pweb2\app\Controllers\ProfileUser.php(30): view('pages/edit_prof...', Array)
+#5 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ProfileUser->edit_profile()
+#6 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileUser))
+#7 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\uas_pweb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-14 04:06:17 --> Undefined variable $validation
+#0 C:\xampp\htdocs\uas_pweb2\app\Views\pages\edit_profile.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('pages/edit_prof...', Array, true)
+#4 C:\xampp\htdocs\uas_pweb2\app\Controllers\ProfileUser.php(30): view('pages/edit_prof...', Array)
+#5 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ProfileUser->edit_profile()
+#6 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileUser))
+#7 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\uas_pweb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-14 04:07:14 --> Undefined variable $validation
+#0 C:\xampp\htdocs\uas_pweb2\app\Views\pages\edit_profile.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('pages/edit_prof...', Array, true)
+#4 C:\xampp\htdocs\uas_pweb2\app\Controllers\ProfileUser.php(30): view('pages/edit_prof...', Array)
+#5 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ProfileUser->edit_profile()
+#6 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileUser))
+#7 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\uas_pweb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-14 04:25:49 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\uas_pweb2\app\Controllers\ProfileUser.php(52): CodeIgniter\HTTP\Files\UploadedFile->move('img/', '1639477549_36f3...')
+#2 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ProfileUser->update()
+#3 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileUser))
+#4 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\uas_pweb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-12-14 04:25:59 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\uas_pweb2\app\Controllers\ProfileUser.php(52): CodeIgniter\HTTP\Files\UploadedFile->move('img/', '1639477559_205a...')
+#2 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ProfileUser->update()
+#3 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileUser))
+#4 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\uas_pweb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-12-14 04:27:14 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\uas_pweb2\app\Controllers\ProfileUser.php(53): CodeIgniter\HTTP\Files\UploadedFile->move('img/', '1639477634_bfad...')
+#2 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ProfileUser->update()
+#3 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileUser))
+#4 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\uas_pweb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-12-14 04:27:22 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\uas_pweb2\app\Controllers\ProfileUser.php(53): CodeIgniter\HTTP\Files\UploadedFile->move('img/', '1639477642_aef9...')
+#2 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ProfileUser->update()
+#3 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileUser))
+#4 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\uas_pweb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-12-14 04:29:06 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\uas_pweb2\app\Controllers\ProfileUser.php(53): CodeIgniter\HTTP\Files\UploadedFile->move('img/', '1639477746_52ec...')
+#2 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ProfileUser->update()
+#3 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileUser))
+#4 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\uas_pweb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-12-14 04:29:49 --> Undefined variable $nama_foto
+#0 C:\xampp\htdocs\uas_pweb2\app\Controllers\ProfileUser.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 70)
+#1 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ProfileUser->update()
+#2 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileUser))
+#3 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\uas_pweb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-14 04:31:54 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\uas_pweb2\app\Controllers\ProfileUser.php(53): CodeIgniter\HTTP\Files\UploadedFile->move('img/', '1639477914_8ae5...')
+#2 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ProfileUser->update()
+#3 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileUser))
+#4 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\uas_pweb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-12-14 04:31:58 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\uas_pweb2\app\Controllers\ProfileUser.php(53): CodeIgniter\HTTP\Files\UploadedFile->move('img/', '1639477918_5e2e...')
+#2 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ProfileUser->update()
+#3 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileUser))
+#4 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\uas_pweb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-12-14 04:32:08 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\uas_pweb2\app\Controllers\ProfileUser.php(53): CodeIgniter\HTTP\Files\UploadedFile->move('img/', '1639477928_e834...')
+#2 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ProfileUser->update()
+#3 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileUser))
+#4 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\uas_pweb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-12-14 04:33:01 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\uas_pweb2\app\Controllers\ProfileUser.php(54): CodeIgniter\HTTP\Files\UploadedFile->move('img/', '1639477981_dd8f...')
+#2 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ProfileUser->update()
+#3 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileUser))
+#4 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\uas_pweb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-12-14 04:33:08 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\uas_pweb2\app\Controllers\ProfileUser.php(54): CodeIgniter\HTTP\Files\UploadedFile->move('img/', '1639477988_82da...')
+#2 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ProfileUser->update()
+#3 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileUser))
+#4 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\uas_pweb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-12-14 04:37:51 --> syntax error, unexpected token "if"
+#0 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('ProfileUser/upd...')
+#1 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('ProfileUser/upd...')
+#2 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\uas_pweb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-14 04:38:08 --> syntax error, unexpected variable "$id"
+#0 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('ProfileUser/upd...')
+#1 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('ProfileUser/upd...')
+#2 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\uas_pweb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-14 04:43:14 --> There is no data to update.
+#0 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Model.php(646): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\uas_pweb2\app\Controllers\ProfileUser.php(73): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ProfileUser->update()
+#5 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileUser))
+#6 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\uas_pweb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-14 04:43:25 --> There is no data to update.
+#0 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Model.php(646): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\uas_pweb2\app\Controllers\ProfileUser.php(73): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ProfileUser->update()
+#5 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileUser))
+#6 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\uas_pweb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2021-12-14 04:43:37 --> Column 'dirAvatar' cannot be null
+CRITICAL - 2021-12-14 04:43:37 --> Column 'dirAvatar' cannot be null
+#0 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `da...', 0)
+#1 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\uas_pweb2\app\Controllers\ProfileUser.php(73): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ProfileUser->update()
+#10 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileUser))
+#11 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\uas_pweb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2021-12-14 04:50:31 --> Undefined variable $nama_foto
+#0 C:\xampp\htdocs\uas_pweb2\app\Controllers\ProfileUser.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 69)
+#1 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ProfileUser->update()
+#2 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileUser))
+#3 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\uas_pweb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-14 04:50:39 --> Undefined variable $nama_foto
+#0 C:\xampp\htdocs\uas_pweb2\app\Controllers\ProfileUser.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 69)
+#1 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ProfileUser->update()
+#2 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileUser))
+#3 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\uas_pweb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\uas_pweb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
