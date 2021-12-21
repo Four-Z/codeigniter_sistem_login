@@ -1,4 +1,6 @@
-# CodeIgniter 4 Application Starter
+Project Ujian Akhir Semester Pemrograman Web 2 Universitas Sriwijaya
+
+## CodeIgniter 4 Application Starter
 
 ## What is CodeIgniter?
 
